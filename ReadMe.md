@@ -8,7 +8,7 @@ The NippyPay SDK allows seamless integration of the NippyPayment Gateway into yo
 - Android API level 21 or higher
 
 ## Obtaining the NippyPay SDK
-1. Download the NippyPay SDK from the following link: Google Drive SDK Link.
+1. Download the NippyPay SDK from the following link: [aar/nippy-test.aar](https://github.com/BreakingIdeas/nippy/blob/f922956b982fb863a600871b20ebb99f947a8831/aar/nippy-test.aar).
 2. Extract the downloaded package to obtain the SDK file `nippypay-sdk.aar`.
 
 ## Importing the NippyPay SDK

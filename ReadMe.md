@@ -13,7 +13,7 @@ The NippyPay SDK allows seamless integration of the NippyPayment Gateway into yo
 
 ## Importing the NippyPay SDK
 1. Open your Android project in Android Studio.
-2. Copy the `nippypay-sdk.aar` file to the `libs` directory in your project.
+2. Copy the `nippy-test.aar` file to the `libs` directory in your project.
 3. In your project's `build.gradle` file, add the following lines:
    groovy
    repositories {

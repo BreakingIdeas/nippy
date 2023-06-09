@@ -58,6 +58,7 @@ The NippyPay SDK allows seamless integration of the NippyPayment Gateway into yo
    
 2. Populate the options with the required parameters:
    java
+   ```
    try {
        options.put(PaymentParam.APPNAME, getString(R.string.app_name));
        options.put(PaymentParam.DESCRIPTION, "NippyPayment");
@@ -71,17 +72,21 @@ The NippyPay SDK allows seamless integration of the NippyPayment Gateway into yo
    } catch (JSONException e) {
        throw new RuntimeException(e);
    }
+   ```
    
 
 ## Callback Listeners
 1. Implement the `NippyPayResponseCallback` interface in your activity or fragment:
    java
+   ```
    public class MainActivity extends AppCompatActivity implements NippyPayResponseCallback {
        // ...
    }
+   ```
    
 2. Override the necessary methods to handle payment responses:
    java
+   ```
    @Override
    public void onPaymentSuccess(String transactionId) {
        // Handle successful payment
@@ -93,13 +98,14 @@ The NippyPay SDK allows seamless integration of the NippyPayment Gateway into yo
 ) {
        // Handle payment error
    }
-   
+   ```
 
 ## Integration Steps
 1. Call the `open` method of the `NippyPay` instance to open the payment gateway:
    java
+   ```
    nippyPay.open(MainActivity.this, options, MainActivity.this);
-   
+   ```
 
 ## Testing and Error Handling
 - Run your app and trigger the payment flow to test the integration with the NippyPayment Gateway.
